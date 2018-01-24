@@ -1,0 +1,18 @@
+{
+  "name": {
+    "en": "Guarantees"
+  },
+  "description": {
+    "en": "Some procurement processes consider the specification of guarantees in order to ensure compliance with the terms of a contract.\n\nThere are many types of guarantees, so we consider the creation of a new extension based on the formats that are required for the Federal Treasury (Mexico). See discussion in https://github.com/open-contracting/standard/issues/651"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "documentationUrl": {
+    "en": "https://github.com/INAImexico/ocds_guarantees_extension"
+  },
+  "codelists": [
+    "guaranteeType.csv",
+    "guaranteedObligations.csv"
+  ]
+}
