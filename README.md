@@ -48,14 +48,14 @@ Add an array named "guarantees" with the following fields:
 guarantees | Guarantees | A list of the guarantees given for this contract.
 guarantees | Guarantee | Information of the guarantee used to ensure compliance with the terms of a contract.
 id | Guarantee ID | A local identifier for this guarantee, unique within this block.
-guaranteeType | Guarantee type | Specify the guarantee type for this contract using the guaranteeType codelist (url).
+guaranteeType | Guarantee type | Specify the guarantee type for this contract using the [guaranteeType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv) codelist.
 bail | Bail | A bail bond is a written promise by which a person agrees with the creditor to pay for the debtor, if he does not.
 depositSlip | Deposit slip | The deposit slip is an instrument used to establish cash guarantees available to judicial or administrative authorities.
 letterOfCredit | Letter of credit | Letters of credit are used to guarantee that a supplier will receive a specified amount of money within a specified time providing strict terms.
 suretyBond | Surety bond | A surety bond is an instrument through which The surety is obliged to compensate the obligee for the damages suffered in the event that the principal fails to comply with the terms of the contract.
 check | Check | A certified check as a form of guarantee.
 date | Guarantee date | The date of the guarantee. This is the date on which the guarantee is issued.
-guaranteedObligations | Guaranteed obligations | Specify the type of obligations that are guaranteed, using the obligationType codelist. (url).
+guaranteedObligations | Guaranteed obligations | Specify the type of obligations that are guaranteed, using the [obligationType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteedObligations.csv) codelist.
 fulfillment | Fulfillment | Guarantees fulfillment in time with the conditions stipulated in the contract.
 prepaid | Prepaid | Guarantee by which the supplier requests a prepayment from the procuring entity.
 latentDefects | Latent defects | Guarantee on the possible defects that a good may have that are not discoverable through general inspection at the time of delivery.
