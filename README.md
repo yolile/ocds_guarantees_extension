@@ -28,10 +28,10 @@ Add an array named "guarantees" with the following fields:
 ### Schema
   - Contract {object}
     - guarantees [array]
-      - guarantee {object}
+      - Guarantee {object}
         - id (string, integer)
         - guaranteeType (string, null) (codelist)
-        - date (string, null)
+        - date (Format: date-time) (string, null)
         - guaranteedObligations (string, null) (codelist)
         - value {object}  
           - $ref : #/definitions/Value
@@ -46,7 +46,7 @@ Add an array named "guarantees" with the following fields:
 **Code** | **Title** | **Description**
 --|--|--
 guarantees | Guarantees | A list of the guarantees given for this contract.
-guarantees | Guarantee | Information of the guarantee used to ensure compliance with the terms of a contract.
+Guarantee | Guarantee | Information of the guarantee used to ensure compliance with the terms of a contract.
 id | Guarantee ID | A local identifier for this guarantee, unique within this block.
 guaranteeType | Guarantee type | Specify the guarantee type for this contract using the [guaranteeType](https://github.com/INAImexico/ocds_guarantees_extension/blob/master/codelists/guaranteeType.csv) codelist.
 bail | Bail | A bail bond is a written promise by which a person agrees with the creditor to pay for the debtor, if he does not.
