@@ -24,7 +24,8 @@
             "string",
             "null"
           ],
-          "codelist": "guaranteeType.csv"
+          "codelist": "guaranteeType.csv",
+          "openCodelist": true
         },
         "date": {
           "title": "Guarantee date",
@@ -42,7 +43,8 @@
             "string",
             "null"
           ],
-          "codelist": "guaranteedObligations.csv"
+          "codelist": "guaranteedObligations.csv",
+          "openCodelist": true
         },
         "value": {
           "title": "Guarantee value",
