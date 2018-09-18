@@ -14,5 +14,8 @@
   "codelists": [
     "guaranteeType.csv",
     "guaranteedObligations.csv"
+  ],
+  "schemas": [
+    "release-schema.json"
   ]
 }
